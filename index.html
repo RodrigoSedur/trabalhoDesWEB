@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RodriFlix - Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="login-page">
+    <header>
+        <div class="logo"><img src="src/logo.png" alt="RodriFlix Logo"></div>
+        <h1 class="central-title">Bem vindo ao RodriFlix</h1>
+    </header>
+
+    <main>
+        <section class="login-section" id="login-box">
+            <h1>Login</h1>
+            <form id="login-form">
+                <label for="username">Usuário</label>
+                <input type="text" id="username" name="username">
+                <label for="password">Senha</label>
+                <input type="password" id="password" name="password">
+                <button type="submit">Entrar</button>
+                <p id="error-message" class="error-message"></p>
+            </form>
+            <button id="signup-button">Criar conta</button>
+        </section>
+
+        <section class="signup-section" id="signup-box" style="display: none;">
+            <h1>Planos e Preços</h1>
+            <div class="plan">
+                <h2>Plano Básico</h2>
+                <p>Descrição do plano básico.</p>
+                <p>Preço: R$19,90/mês</p>
+            </div>
+            <div class="plan">
+                <h2>Plano Padrão</h2>
+                <p>Descrição do plano padrão.</p>
+                <p>Preço: R$29,90/mês</p>
+            </div>
+            <div class="plan">
+                <h2>Plano Premium</h2>
+                <p>Descrição do plano premium.</p>
+                <p>Preço: R$39,90/mês</p>
+            </div>
+            <button id="subscribe-button">Assinar</button>
+            <button id="back-button">Voltar</button>
+        </section>
+    </main>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
