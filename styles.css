@@ -301,7 +301,7 @@ footer .social-media a:hover {
     display: block;
 }
 
-.play-button {
+.playbutton {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -314,7 +314,7 @@ footer .social-media a:hover {
     display: none;
 }
 
-.video-thumb:hover .play-button {
+.video-thumb:hover .playbutton {
     display: block;
 }
 
